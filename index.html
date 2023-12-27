@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangla Date Converter</title>
+
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bangla Date Converter</h1>
+    <label for="eDay">Enter Day:</label>
+    <input type="text" id="eDay">
+    <label for="eMonth">Enter Month:</label>
+    <input type="text" id="eMonth">
+    <label for="eYear">Enter Year:</label>
+    <input type="text" id="eYear">
+    <button id="convertButton">Convert</button>
+    <div id="result">
+        Converted Bangla Date: <span id="convertedBDate"></span>
+    </div>
+    <div>
+        Bangla Weekday: <span id="bWeekday"></span>
+    </div>
+    <div>
+        Season: <span id="season"></span>
+    </div>
+
+    <!-- Include jQuery if not already included -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include the script.js file that calls the convertToBangla function -->
+    <script src="script.js"></script>
+</body>
+</html>
